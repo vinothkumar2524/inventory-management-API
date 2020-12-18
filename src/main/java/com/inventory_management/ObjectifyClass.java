@@ -10,6 +10,8 @@ public class ObjectifyClass {
 	{
 		 ObjectifyService.ofy().save().entities(new Employee(1L,"jagandaw")).now();
 		 ObjectifyService.ofy().save().entities(new Employee(2L,"kapildaw")).now();
+		 ObjectifyService.ofy().save().entities(new Device(3L,"Laptop","Dell")).now();
+		 
 
 	}
 }
